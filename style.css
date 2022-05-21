@@ -1,0 +1,97 @@
+body{
+    background-color: #EEEEEE;
+}
+
+header{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navegação li{
+    display: inline-block;
+    border: #000000 1px dotted;
+}
+
+.navegação a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.navegação a:hover{
+    color: seagreen;
+    font-size: 20px;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.p1{
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+main{
+    text-align: center;
+}
+
+.gostos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.gostos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+}
+
+.gostos li:hover h2{
+    font-size: 25px;
+}
+
+.gostos li:hover p{
+    color: #9922FF;
+}
+
+.imagens1{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.imagens2{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.imagens3{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+footer div{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #000000;
+    color: white;
+}
+
+.final li{
+    display: inline-block;
+    padding: 0 10px;
+}
